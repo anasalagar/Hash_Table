@@ -21,16 +21,27 @@ namespace HashTables_BST_Day15
             }
             Console.WriteLine("Displaying after add operation\n");
             hashtable.Display();
+
             hashtable.Remove("avoidable");                                     //display after removing the key value pair with key avoidable
             Console.WriteLine("Displaying after removing avoidable.\n");
             hashtable.Display();
+
+
             Console.WriteLine("----------------------------------------");
         }
         static void Main(string[] args)
         {
+
             CountingWordFrequency("Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations");
 
-         
+
+
+            CountingWordFrequency("Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations");
+
+
+            CountingWordFrequency("to be or not to be");
+
+       
 
         }
     }
